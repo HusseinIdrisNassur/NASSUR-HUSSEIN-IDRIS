@@ -1,0 +1,218 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+#darkModeContainer {
+    display: flex;
+    align-items: center;
+}
+
+#darkModeToggle {
+    margin-left: auto; /* Move the dark mode toggle button to the right */
+}
+
+nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s ease;
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px; /* Increased border radius */
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+nav a:hover {
+    color: #555;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    padding: 20px;
+    border: 2px solid #ccc; /* Increased border thickness */
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 20px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #45a049;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label,
+input,
+textarea,
+button {
+    display: block;
+    margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    header {
+        padding: 10px;
+    }
+
+    nav a {
+        padding: 8px 16px;
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    section {
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+
+    .button {
+        padding: 8px 16px;
+    }
+
+    form {
+        max-width: 100%;
+    }
+}
+
+.project-link {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+
+.project-link:hover {
+    background-color: #45a049;
+}
+
+/* Additional styles for dark mode */
+.dark-mode body {
+    background-color: #222;
+    color: #fff;
+}
+
+.dark-mode header {
+    background-color: #333;
+}
+
+.dark-mode nav a {
+    color: #ddd;
+}
+
+.dark-mode section {
+    border: 2px solid #555; /* Increased border thickness */
+}
+
+.dark-mode .button,
+.dark-mode .project-link {
+    background-color: #777;
+}
+
+.dark-mode .button:hover,
+.dark-mode .project-link:hover {
+    background-color: #666;
+}
+
+#resume {
+    padding: 20px;
+    border: 2px solid #ccc; /* Increased border thickness */
+    margin-bottom: 20px;
+}
+
+.resume-link,
+.resume-download {
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 10px;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    border: 2px solid #3498db;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+
+.resume-link:hover,
+.resume-download:hover {
+    background-color: #2980b9;
+    border-color: #2980b9;
+}
+
+/* Additional styles for dark mode */
+.dark-mode #resume {
+    border: 2px solid #555; /* Increased border thickness */
+}
+
+.dark-mode .resume-link,
+.dark-mode .resume-download {
+    background-color: #555;
+    border-color: #555;
+}
+
+.dark-mode .resume-link:hover,
+.dark-mode .resume-download:hover {
+    background-color: #444;
+    border-color: #444;
+}
+
+/* ... (remaining styles) ... */
