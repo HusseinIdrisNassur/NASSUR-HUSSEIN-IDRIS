@@ -1,5 +1,3 @@
-# NASSUR-HUSSEIN-IDRIS
-<!DOCTYPE html>
 <html lang="en">
 
 <head>
